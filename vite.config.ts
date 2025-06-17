@@ -11,7 +11,13 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'PicoVue',
-      formats: ['es', 'umd', 'iife']
+      formats: ['es', 'umd', 'iife'],
+      fileName: (format) => {
+        if (format === 'es') return 'smoll-vue.es.js'
+        if (format === 'umd') return 'smoll-vue.umd.js'
+        if (format === 'iife') return 'smoll-vue.iife.js'
+        return `smoll-vue.${format}.js`
+      }
     },
     rollupOptions: {
       plugins: [

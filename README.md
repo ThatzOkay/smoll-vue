@@ -63,9 +63,9 @@ Or, use the ES module build:
 
 The short CDN URL is meant for prototyping. For production usage, use a fully resolved CDN URL to avoid resolving and redirect cost:
 
-- Global build: `https://unpkg.com/smoll-vue@1.2.0/dist/smoll-vue.iife.js`
+- Global build: `https://unpkg.com/smoll-vue@1.2.2/dist/smoll-vue.iife.js`
   - exposes `PetiteVue` global, supports auto init
-- ESM build: `https://unpkg.com/smoll-vue@1.2.0/dist/smoll-vue.es.js`
+- ESM build: `https://unpkg.com/smoll-vue@1.2.2/dist/smoll-vue.es.js`
   - Must be used with `<script type="module">`
 
 ### Root Scope
