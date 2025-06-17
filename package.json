@@ -1,15 +1,15 @@
 {
-  "name": "pico-vue",
-  "version": "1.0.5",
+  "name": "smoll-vue",
+  "version": "1.2.0",
   "description": "petite-vue fork with plugins support",
-  "main": "dist/pico-vue.umd.js",
-  "unpkg": "dist/pico-vue.iife.js",
-  "jsdelivr": "dist/pico-vue.iife.js",
-  "module": "./dist/pico-vue.es.js",
+  "main": "dist/smoll-vue.umd.js",
+  "unpkg": "dist/smoll-vue.iife.js",
+  "jsdelivr": "dist/smoll-vue.iife.js",
+  "module": "./dist/smoll-vue.es.js",
   "exports": {
     ".": {
-      "import": "./dist/pico-vue.es.js",
-      "require": "./dist/pico-vue.umd.js"
+      "import": "./dist/smoll-vue.es.js",
+      "require": "./dist/smoll-vue.umd.js"
     }
   },
   "types": "./dist/types/index.d.ts",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ws-rush/pico-vue.git"
+    "url": "git+https://github.com/thatzokay/smoll-vue.git"
   },
   "keywords": [
     "vue"
@@ -29,21 +29,21 @@
   "author": "Evan You",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ws-rush/pico-vue/discussions"
+    "url": "https://github.com/thatzokay/smoll-vue/discussions"
   },
-  "homepage": "https://github.com/ws-rush/pico-vue#readme",
+  "homepage": "https://github.com/thatzokay/smoll-vue#readme",
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.19.1",
     "@vue/reactivity": "3.2.45",
     "@vue/shared": "3.2.45",
-    "chalk": "^4.1.1",
-    "conventional-changelog-cli": "^2.1.1",
-    "enquirer": "^2.3.6",
-    "execa": "^5.0.0",
-    "prettier": "^2.3.0",
-    "semver": "^7.3.5",
-    "terser": "^5.31.1",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.13"
+    "chalk": "^4.1.2",
+    "conventional-changelog-cli": "^2.2.2",
+    "enquirer": "^2.4.1",
+    "execa": "^5.1.1",
+    "prettier": "^2.8.8",
+    "semver": "^7.7.2",
+    "terser": "^5.42.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
   }
 }
