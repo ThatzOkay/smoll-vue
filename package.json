@@ -1,6 +1,6 @@
 {
   "name": "smoll-vue",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "petite-vue fork with plugins support",
   "main": "dist/smoll-vue.umd.js",
   "unpkg": "dist/smoll-vue.iife.js",
